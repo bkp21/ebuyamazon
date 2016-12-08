@@ -1,0 +1,317 @@
+/*----------------------------------------*/
+/*   DEFAULT CSS
+/*----------------------------------------*/
+
+.ticket-body {
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+/* SECTION HEADER */
+.section-header {
+	font-size: 24px;
+	line-height: 34px;
+	text-transform: capitalize;
+}
+
+/* PADDING */
+.padding-30-30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/*----------------------------------------*/
+/*   DEFAULT CLASS
+/*----------------------------------------*/
+
+.bg-white {
+	background: #FFF;
+}
+
+.bg-lite-white {
+	background: #F2F5F7;
+}
+
+/*----------------------------------------*/
+/*   TICKET INFO
+/*----------------------------------------*/
+
+.ticket-info {
+	padding: 0 0 5px 15px;
+}
+
+.ticket-info .delete-ticket {
+	text-transform: uppercase;
+	background: #FF8B8B;
+	padding: 2px 8px;
+	color: #FFF;
+	margin: 28px 15px 0 0;
+	font-size: 12px;
+	-moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.delete-ticket:hover {
+	text-decoration: none;
+	background: #FF6B6B;
+}
+
+.ticket-info table td:first-child {
+	font-weight: 700;
+}
+
+.ticket-info table td {
+	border: none!important;
+	padding: 5px 5px 5px 0!important;
+	line-height: 20px;
+}
+
+.table {
+	margin-bottom: 0;
+}
+
+
+
+/*----------------------------------------*/
+/*   CLIENTS RATING
+/*----------------------------------------*/
+
+.clients-rating {
+	padding: 0 15px 15px;
+	margin-top: 30px;
+}
+
+.clients-rating p {
+	font-weight: 700;
+	margin-bottom: 0;
+	line-height: 24px;
+}
+
+
+/*----------------------------------------*/
+/*   TESTE
+/*----------------------------------------*/
+
+.teste {
+	padding: 0 15px 15px;
+}
+
+.teste img {
+	width: 70px;
+	margin-right: 10px;
+}
+
+.teste span {
+	margin-top: 10px;
+}
+
+
+/*----------------------------------------*/
+/*   TICKET REPLIES
+/*----------------------------------------*/
+
+.ticket-replies {
+	padding: 0 15px 15px;
+	margin-top: 30px;
+}
+
+/* ADMIN REPLY */
+.admin-reply {
+	margin-bottom: 20px;
+}
+
+/* ADMIN AVATAR */
+.admin-avatar {
+
+}
+
+.admin-avatar img {
+	width: 70px;
+	margin: 10px;
+}
+
+.admin-avatar .admin-name {
+	width: 90px;
+	display: block;
+}
+
+/* ADMIN TEXT */
+.admin-text {
+	width: 70%;
+	margin: 10px 10px 10px 100px;
+}
+
+.admin-text .admin-text-reply {
+	position: relative;
+	padding: 10px 15px;
+	background: #F1F6F8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	line-height: 24px;
+}
+
+.admin-text .admin-text-reply::after {
+	position: absolute;
+	content: "";
+	right: 100%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 0;
+	width: 0;
+	border: 10px solid;
+	border-color: transparent #F1F6F8 transparent transparent;
+}
+
+.admin-text .admin-reply-date {
+	font-size: 12px;
+	margin-top: 5px;
+
+}
+
+/* UPLOADED FILE */
+.uploaded-file {
+	padding: 12px 12px 8px 12px;
+	display: table;
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #d5d5d5;
+	-moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	color: #555;
+}
+
+.uploaded-file:hover {
+	background: #F8F8F8;
+	text-decoration: none;
+}
+
+.uploaded-file i {
+	font-size: 44px;
+	color: #AAAAAA;
+}
+
+.uploaded-file .file-name {
+	display: table;
+	font-weight: 700;
+	line-height: 24px;
+	word-break: break-all;
+    word-wrap: break-word;
+}
+
+.uploaded-file .file-size {
+	display: table;
+	font-size: 12px;
+}
+
+
+
+/* GUEST REPLY */
+.guest-reply {
+	margin-bottom: 20px;
+}
+
+/* GUEST AVATAR */
+.guest-avatar {
+
+}
+
+.guest-avatar img {
+	width: 70px;
+	margin: 10px;
+}
+
+.guest-avatar .guest-name {
+	width: 90px;
+	display: block;
+}
+
+/* GUEST TEXT */
+.guest-text {
+	margin: 10px 100px 10px 15%;
+	display: block;
+}
+
+.guest-text .guest-text-reply {
+	position: relative;
+	padding: 10px 15px;
+	background: #F1F6F8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	line-height: 24px;
+}
+
+.guest-text .guest-text-reply::after {
+	position: absolute;
+	content: "";
+	left: 100%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 0;
+	width: 0;
+	border: 10px solid;
+	border-color: transparent transparent transparent #F1F6F8;
+}
+
+.guest-text .guest-reply-date {
+	font-size: 12px;
+	margin-top: 5px;
+
+}
+
+
+/*----------------------------------------*/
+/*   NEW REPLY
+/*----------------------------------------*/
+
+.new-reply {
+	padding: 0 15px 15px;
+	margin-top: 30px;
+}
+
+/* TEXT EDITOR */
+.jqte_tool_label.unselectable {
+	height: 23px!important;
+}
+
+/* SUBMIT BUTTON */
+.submit {
+	margin-top: 20px;
+	text-transform: capitalize;
+}
+
+
+/*----------------------------------------*/
+/*   MEDIA QUERIES
+/*----------------------------------------*/
+
+@media screen and (max-width: 450px) {
+
+	/* ADMIN REPLY */
+	.admin-text {
+		width: auto;
+	}
+
+	/* GUEST TEXT */
+	.guest-text {
+		margin-left: 0;
+	}
+
+}
+
